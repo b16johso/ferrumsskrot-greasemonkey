@@ -4,6 +4,6 @@ window.addEventListener('load', function() {
 
 	document.getElementById("jform_title").value = "Kräftkalas, kräftkalas";
   	
-  	var textEditor = document.getElementById("tinymce");
+  	var textEditor = document.getElementById("jform_articletext_ifr").contentWindow.document.getElementById("tinymce");
   	textEditor.getElementByTagName("P")[0].innerHTML = "Kräftkalas, kräftkalas, nu är det kräftkalas!";
 }, false);
